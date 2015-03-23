@@ -36,6 +36,9 @@
       <sprites name="NPC's">
         <sprite>sprites\sprVictoria</sprite>
       </sprites>
+      <sprites name="Wepons">
+        <sprite>sprites\sprBulet</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
