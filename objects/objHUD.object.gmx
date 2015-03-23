@@ -56,7 +56,8 @@ if(fps &gt;= 30){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_halign(fa_center);
+            <string>Debug = 0;
+draw_set_halign(fa_center);
 draw_set_color(c_black);
 draw_set_alpha(1);
 draw_set_font(ftHUD);
@@ -66,17 +67,20 @@ HealthY = 0;
 StarsX = 0;
 StarsY = 10;
 draw_set_halign(fa_center);
-draw_text(view_xview + 60,view_yview + 10, "Health: " + string(global.PlayerHP))
-draw_text(view_xview + 55,view_yview + 30, "Money: $" + string(global.money))
+draw_text(view_xview+55,view_yview+30, "Health: " + string(global.PlayerHP))
+draw_text(view_xview+50,view_yview+10, "Money: $" + string(global.money))
 
 if(keyboard_check(vk_f3)){
-Debug = 1;
-}else{
-Debug = 0;
+    if(Debug == 0){
+    Debug = 1;
+    }else{
+    Debug = 0;
+    }
+
 }
 if(Debug){
 draw_set_color(c_white);
-draw_text(view_xview + 55,view_yview + 30, "Money: $" + string(global.money))
+draw_text(view_xview + 55,view_yview + 30, "FPS:" + string(fps))
 }
 </string>
           </argument>
