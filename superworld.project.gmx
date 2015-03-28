@@ -35,6 +35,7 @@
       <sprite>sprites\spr_player_mask</sprite>
       <sprites name="NPC's">
         <sprite>sprites\sprVictoria</sprite>
+        <sprite>sprites\sprUFO</sprite>
       </sprites>
       <sprites name="Wepons">
         <sprite>sprites\sprBulet</sprite>
@@ -67,6 +68,7 @@
     <objects name="Player/Enemys">
       <object>objects\objPlayer</object>
       <object>objects\objVictoria</object>
+      <object>objects\objUFO</object>
     </objects>
     <objects name="Walls">
       <object>objects\objWall</object>

@@ -53,6 +53,7 @@
   <instances>
     <instance objName="objMenu" x="16" y="300" name="inst_5EA82A6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objFade" x="0" y="0" name="inst_28080EEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objUFO" x="512" y="288" name="inst_999F285B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
