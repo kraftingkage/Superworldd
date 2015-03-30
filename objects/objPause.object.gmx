@@ -64,10 +64,6 @@ exitmenu = 0;
 if(keyboard_check(ord("E")) &amp;&amp; global.pause == 1){
     exitmenu = 1;
     draw_set_color(c_white);
-if(keyboard_check(ord("O")) &amp;&amp; global.pause == 1){
-    optionmenu = 1;
-    draw_set_color(c_white);
-    
 }
 if(exitmenu == 1 &amp;&amp; global.pause ==1){
         draw_set_color(c_white) 
@@ -90,7 +86,7 @@ if(exitmenu == 1 &amp;&amp; global.pause ==1){
 if(exitmenu == 1 &amp;&amp; global.pause == 0){
     exitmenu = 0;
 }
-      }
+
 </string>
           </argument>
         </arguments>

@@ -1,4 +1,3 @@
-if(file_exists("Save.sav")) file_delete("Save.sav");
 ini_open("Save.sav");
 
 var SavedRoom = base64_encode(string(room));

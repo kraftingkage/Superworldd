@@ -53,6 +53,7 @@
     </scripts>
     <script>scripts\scrRoomChange.gml</script>
     <script>scripts\scrMenu.gml</script>
+    <script>scripts\scrCodeCorrect.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\ftHUD</font>
@@ -83,10 +84,12 @@
       <object>objects\objPauseFade</object>
       <object>objects\objMenu</object>
     </objects>
+    <object>objects\objCodes</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmStart</room>
     <room>rooms\rmNEW</room>
+    <room>rooms\rmCodes</room>
     <room>rooms\rmLevel1</room>
   </rooms>
   <help>

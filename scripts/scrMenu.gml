@@ -8,7 +8,7 @@ switch(mpos){
         break;
     }
     case 2:{
-        
+        scrRoomChange(rmCodes);
         break;
     }
     case 3:{
