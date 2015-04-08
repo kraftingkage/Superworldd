@@ -39,6 +39,7 @@
       </sprites>
       <sprites name="Wepons">
         <sprite>sprites\sprBulet</sprite>
+        <sprite>sprites\sprBulletHorizon</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -65,6 +66,11 @@
       <object>objects\objTeleport</object>
       <object>objects\objPowerupUsed</object>
       <object>objects\objPowerup</object>
+      <objects name="Bullet">
+        <object>objects\objBulletRight</object>
+        <object>objects\objBulletLeft</object>
+        <object>objects\objBulletUp</object>
+      </objects>
     </objects>
     <objects name="Player/Enemys">
       <object>objects\objPlayer</object>
@@ -83,8 +89,8 @@
       <object>objects\objPause</object>
       <object>objects\objPauseFade</object>
       <object>objects\objMenu</object>
+      <object>objects\objCodes</object>
     </objects>
-    <object>objects\objCodes</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmStart</room>
