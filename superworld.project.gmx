@@ -9,18 +9,21 @@
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="Walls">
-      <sprite>sprites\sprBrick</sprite>
-      <sprite>sprites\sprDirt</sprite>
-      <sprite>sprites\sprGrass</sprite>
-    </sprites>
     <sprites name="Other">
       <sprite>sprites\sprPauseFade</sprite>
+      <sprites name="Walls">
+        <sprite>sprites\sprBrick</sprite>
+        <sprite>sprites\sprDirt</sprite>
+        <sprite>sprites\sprGrass</sprite>
+      </sprites>
       <sprite>sprites\sprTeleporter</sprite>
       <sprite>sprites\sprpointer</sprite>
       <sprites name="Powerup">
         <sprite>sprites\sprPowerup</sprite>
         <sprite>sprites\sprPowerupUsed</sprite>
+      </sprites>
+      <sprites name="Shop">
+        <sprite>sprites\sprTemplate</sprite>
       </sprites>
     </sprites>
     <sprites name="StartMenu">
@@ -70,6 +73,10 @@
         <object>objects\objBulletRight</object>
         <object>objects\objBulletLeft</object>
         <object>objects\objBulletUp</object>
+      </objects>
+      <objects name="Shops">
+        <object>objects\objShop</object>
+        <object>objects\objTemplate</object>
       </objects>
     </objects>
     <objects name="Player/Enemys">

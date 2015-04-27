@@ -95,8 +95,6 @@ jumpspeed = jumpspeed_normal;
             <kind>1</kind>
             <string>if(global.pause) exit;
 
-//X,y,Load
-
 
       
 
@@ -137,10 +135,10 @@ x += hsp;
 y += vsp;  
 
 
-//Animation
+//Save
     global.playerX = x;
     global.playerY = y;
-
+//Animation
     if(move != 0) image_xscale = move;
     if(place_meeting(x,y+1,objWall)){
         if(move !=0) sprite_index = sprPlayer; else sprite_index = sprPlayerWait;
