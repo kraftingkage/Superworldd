@@ -94,6 +94,7 @@ jumpspeed = jumpspeed_normal;
           <argument>
             <kind>1</kind>
             <string>if(global.pause) exit;
+if(global.shopopen == true) exit;
 
 
       

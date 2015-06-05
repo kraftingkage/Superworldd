@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>shopopen = false;
+            <string>global.shopopen = false;
+
 </string>
           </argument>
         </arguments>
@@ -48,30 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <string>//
 </string>
           </argument>
         </arguments>
@@ -94,7 +72,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(shopopen == true){
+            <string>if(global.shopopen == true){
 shopx= view_xview+50
 shopy= view_yview+30
 //instance_create(x,y,objPauseFade);
@@ -125,13 +103,12 @@ instance_create(shopx,shopy,objTemplate);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(shopopen == true){
-shopopen = false;
+            <string>if(global.shopopen == false){
+    global.shopopen = true;
+    instance_create(view_xview + 0,view_yview +0, objShopFade);
 }else{
-shopopen=true;
-}
-
-
+    global.shopopen = false;
+    }
 </string>
           </argument>
         </arguments>

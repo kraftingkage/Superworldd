@@ -72,15 +72,16 @@
           <argument>
             <kind>1</kind>
             <string>if(i){
-i = 0;
-alarm[0] = 240;
-    if(global.money == 1500){
+    if(global.money &gt;= 1500){
         show_message("Okay, you have the money. Let me get my file...#LOADING#.#.#.#.#.#.#.");
         show_message("Ahh, the code is 159784q... Now, give me your money.");
         global.money -= 1500;
         instance_destroy();
+    }else{
+    show_message("Victoria: Do you have $1500?#You: Nope I only have $" + string(global.money))
     }
-show_message("Victoria: Do you have $1500?#You: Nope I only have $" + string(global.money))
+i = 0;
+alarm[0] = 240;    
 }else{
 exit;
 }

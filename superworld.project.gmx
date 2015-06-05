@@ -11,16 +11,18 @@
   <sprites name="sprites">
     <sprites name="Other">
       <sprite>sprites\sprPauseFade</sprite>
+      <sprite>sprites\sprTeleporter</sprite>
+      <sprite>sprites\sprpointer</sprite>
       <sprites name="Walls">
         <sprite>sprites\sprBrick</sprite>
         <sprite>sprites\sprDirt</sprite>
         <sprite>sprites\sprGrass</sprite>
       </sprites>
-      <sprite>sprites\sprTeleporter</sprite>
-      <sprite>sprites\sprpointer</sprite>
       <sprites name="Powerup">
         <sprite>sprites\sprPowerup</sprite>
         <sprite>sprites\sprPowerupUsed</sprite>
+        <sprite>sprites\sprCoin</sprite>
+        <sprite>sprites\sprHeart</sprite>
       </sprites>
       <sprites name="Shop">
         <sprite>sprites\sprTemplate</sprite>
@@ -42,6 +44,7 @@
       </sprites>
       <sprites name="Wepons">
         <sprite>sprites\sprBulet</sprite>
+        <sprite>sprites\sprLeft</sprite>
         <sprite>sprites\sprBulletHorizon</sprite>
       </sprites>
     </sprites>
@@ -74,15 +77,17 @@
         <object>objects\objBulletLeft</object>
         <object>objects\objBulletUp</object>
       </objects>
+      <objects name="Player/Enemys">
+        <object>objects\objPlayer</object>
+        <object>objects\objVictoria</object>
+        <object>objects\objUFO</object>
+      </objects>
       <objects name="Shops">
         <object>objects\objShop</object>
         <object>objects\objTemplate</object>
       </objects>
-    </objects>
-    <objects name="Player/Enemys">
-      <object>objects\objPlayer</object>
-      <object>objects\objVictoria</object>
-      <object>objects\objUFO</object>
+      <object>objects\objCoin</object>
+      <object>objects\objHeartBoost</object>
     </objects>
     <objects name="Walls">
       <object>objects\objWall</object>
@@ -95,6 +100,7 @@
       <object>objects\objHUD</object>
       <object>objects\objPause</object>
       <object>objects\objPauseFade</object>
+      <object>objects\objShopFade</object>
       <object>objects\objMenu</object>
       <object>objects\objCodes</object>
     </objects>
