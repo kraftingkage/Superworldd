@@ -46,6 +46,7 @@
         <sprite>sprites\sprBulet</sprite>
         <sprite>sprites\sprLeft</sprite>
         <sprite>sprites\sprBulletHorizon</sprite>
+        <sprite>sprites\sprBomb</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -61,11 +62,13 @@
     <script>scripts\scrRoomChange.gml</script>
     <script>scripts\scrMenu.gml</script>
     <script>scripts\scrCodeCorrect.gml</script>
+    <script>scripts\scr_text.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\ftHUD</font>
     <font>fonts\ftPause</font>
     <font>fonts\ftmenu</font>
+    <font>fonts\ftDialog</font>
   </fonts>
   <objects name="objects">
     <objects name="Other">
@@ -76,15 +79,12 @@
         <object>objects\objBulletRight</object>
         <object>objects\objBulletLeft</object>
         <object>objects\objBulletUp</object>
+        <object>objects\objBomb</object>
       </objects>
       <objects name="Player/Enemys">
         <object>objects\objPlayer</object>
         <object>objects\objVictoria</object>
         <object>objects\objUFO</object>
-      </objects>
-      <objects name="Shops">
-        <object>objects\objShop</object>
-        <object>objects\objTemplate</object>
       </objects>
       <object>objects\objCoin</object>
       <object>objects\objHeartBoost</object>
@@ -99,10 +99,11 @@
       <object>objects\objFade</object>
       <object>objects\objHUD</object>
       <object>objects\objPause</object>
+      <object>objects\objCredits</object>
       <object>objects\objPauseFade</object>
-      <object>objects\objShopFade</object>
       <object>objects\objMenu</object>
       <object>objects\objCodes</object>
+      <object>objects\obj_text</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -110,6 +111,7 @@
     <room>rooms\rmNEW</room>
     <room>rooms\rmCodes</room>
     <room>rooms\rmLevel1</room>
+    <room>rooms\rmCredits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
